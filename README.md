@@ -134,8 +134,8 @@ These differences describe the observed performance of participants associated w
 
 Among records with available school location information, the mean Mathematics scores were:
 
-- **Urban:** 516.27
 - **Rural:** 465.96
+- **Urban:** 516.27
 
 The observed difference may be associated with multiple educational, socioeconomic, and regional factors and should not be interpreted as a causal relationship.
 
@@ -334,8 +334,8 @@ Essas diferenças descrevem o desempenho observado dos participantes associados 
 
 Entre os registros com informação disponível sobre a localização da escola, as médias de Matemática foram:
 
-- **Urbana:** 516,27
 - **Rural:** 465,96
+- **Urbana:** 516,27
 
 A diferença observada pode estar associada a diversos fatores educacionais, socioeconômicos e regionais e não deve ser interpretada como uma relação causal.
 
