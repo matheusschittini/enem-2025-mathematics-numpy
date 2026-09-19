@@ -86,6 +86,14 @@ For school location:
 - **Urban:** 516.27
 - **Rural:** 465.96
 
+### Performance by Exam State
+
+Mathematics performance varied considerably across the Brazilian states where the exam was taken.
+
+The highest mean scores were observed in **São Paulo (SP), Santa Catarina (SC), Rio Grande do Sul (RS), Minas Gerais (MG), and the Federal District (DF)**, while lower mean scores were observed in several states in the North and Northeast regions.
+
+It is important to note that `SG_UF_PROVA` represents the state where the exam was taken and does not necessarily correspond to the participant's state of residence or schooling.
+
 At the municipality level, **Veranópolis (RS)** presented the highest mean Mathematics score among the exam municipalities analyzed, followed by **Lajeado (RS)** and **Valinhos (SP)**.
 
 These results are descriptive and should not be interpreted as evidence of causal relationships.
@@ -226,6 +234,14 @@ Em relação à localização da escola:
 
 - **Urbana:** 516,27
 - **Rural:** 465,96
+
+### Desempenho por Estado de Aplicação
+
+O desempenho em Matemática apresentou variações consideráveis entre os estados brasileiros onde a prova foi realizada.
+
+As maiores médias foram observadas em **São Paulo (SP), Santa Catarina (SC), Rio Grande do Sul (RS), Minas Gerais (MG) e Distrito Federal (DF)**, enquanto médias menores foram observadas em diversos estados das regiões Norte e Nordeste.
+
+É importante observar que `SG_UF_PROVA` representa o estado onde a prova foi realizada e não necessariamente corresponde ao estado de residência ou escolarização do participante.
 
 No nível municipal, **Veranópolis (RS)** apresentou a maior média de Matemática entre os municípios de aplicação analisados, seguida por **Lajeado (RS)** e **Valinhos (SP)**.
 
