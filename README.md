@@ -20,7 +20,7 @@ The project investigates the following questions:
 
 - How are Mathematics scores distributed in the ENEM 2025?
 - How does mean Mathematics performance vary across exam states?
-- How does mean Mathematics performance differ across school administrative dependency categories?
+- How does mean Mathematics performance differ among state, municipal, federal, and private schools?
 - How does mean Mathematics performance differ between urban and rural schools?
 - Which exam municipalities present the highest mean Mathematics scores?
 
@@ -56,7 +56,7 @@ The notebook includes:
 - Descriptive statistics for Mathematics scores
 - Score distribution by performance ranges
 - Mathematics performance by exam state
-- Mathematics performance by school administrative dependency
+- Mathematics performance among state, municipal, federal, and private schools
 - Mathematics performance by school location
 - Ranking of the 50 exam municipalities with the highest mean Mathematics scores
 
@@ -74,29 +74,80 @@ More than half of the valid scores were concentrated between **400 and 600 point
 
 Substantial differences were observed across geographical and school-related categories.
 
-Among school administrative dependency categories, the mean Mathematics scores were:
+### Performance by Exam State
+
+Mathematics performance varied considerably across the Brazilian federative units where the exam was taken.
+
+The complete ranking by mean Mathematics score was:
+
+<details>
+<summary><strong>View complete ranking by exam state</strong></summary>
+
+| Rank | UF | Mean Score |
+|---:|:---:|---:|
+| 1 | SP | 560.34 |
+| 2 | SC | 553.49 |
+| 3 | RS | 549.08 |
+| 4 | MG | 548.20 |
+| 5 | DF | 547.98 |
+| 6 | ES | 545.10 |
+| 7 | PR | 544.66 |
+| 8 | RJ | 537.61 |
+| 9 | GO | 521.76 |
+| 10 | RN | 515.61 |
+| 11 | MS | 513.39 |
+| 12 | CE | 511.24 |
+| 13 | PE | 510.46 |
+| 14 | MT | 508.83 |
+| 15 | PB | 505.39 |
+| 16 | SE | 494.82 |
+| 17 | AL | 492.59 |
+| 18 | RR | 492.32 |
+| 19 | PI | 491.42 |
+| 20 | RO | 488.15 |
+| 21 | BA | 486.94 |
+| 22 | TO | 486.87 |
+| 23 | AC | 479.14 |
+| 24 | MA | 470.13 |
+| 25 | PA | 467.07 |
+| 26 | AP | 466.41 |
+| 27 | AM | 464.61 |
+
+</details>
+
+The difference between the highest and lowest mean Mathematics scores was approximately **95.73 points**.
+
+It is important to note that `SG_UF_PROVA` represents the state where the exam was taken and does not necessarily correspond to the participant's state of residence or schooling.
+
+### Performance by School Administrative Dependency
+
+Among records with available school administrative dependency information, the mean Mathematics scores were:
 
 - **State:** 480.63
 - **Municipal:** 532.26
 - **Federal:** 586.95
 - **Private:** 620.32
 
-For school location:
+These differences describe the observed performance of participants associated with each school category and should not be interpreted as evidence that school administrative dependency alone determines Mathematics performance.
+
+### Performance by School Location
+
+Among records with available school location information, the mean Mathematics scores were:
 
 - **Urban:** 516.27
 - **Rural:** 465.96
 
-### Performance by Exam State
+The observed difference may be associated with multiple educational, socioeconomic, and regional factors and should not be interpreted as a causal relationship.
 
-Mathematics performance varied considerably across the Brazilian states where the exam was taken.
-
-The highest mean scores were observed in **São Paulo (SP), Santa Catarina (SC), Rio Grande do Sul (RS), Minas Gerais (MG), and the Federal District (DF)**, while lower mean scores were observed in several states in the North and Northeast regions.
-
-It is important to note that `SG_UF_PROVA` represents the state where the exam was taken and does not necessarily correspond to the participant's state of residence or schooling.
+### Performance by Exam Municipality
 
 At the municipality level, **Veranópolis (RS)** presented the highest mean Mathematics score among the exam municipalities analyzed, followed by **Lajeado (RS)** and **Valinhos (SP)**.
 
-These results are descriptive and should not be interpreted as evidence of causal relationships.
+The analysis ranked the **50 exam municipalities with the highest mean Mathematics scores** among the 1,768 municipalities represented in the valid Mathematics score data.
+
+As with the state-level analysis, the municipality refers to the location where the exam was taken and does not necessarily represent the participant's municipality of residence or schooling.
+
+Overall, the results presented in this project are descriptive and should not be interpreted as evidence of causal relationships.
 
 ## NumPy Concepts Applied
 
@@ -169,7 +220,7 @@ O projeto investiga as seguintes questões:
 
 - Como estão distribuídas as notas de Matemática no ENEM 2025?
 - Como a média de Matemática varia entre os estados de aplicação da prova?
-- Como a média de Matemática varia entre as diferentes dependências administrativas das escolas?
+- Como a média de Matemática varia entre escolas estaduais, municipais, federais e privadas?
 - Como o desempenho médio difere entre escolas urbanas e rurais?
 - Quais municípios de aplicação da prova apresentam as maiores médias em Matemática?
 
@@ -205,7 +256,7 @@ O notebook inclui:
 - Estatísticas descritivas das notas de Matemática
 - Distribuição das notas por faixas de desempenho
 - Desempenho em Matemática por estado de aplicação
-- Desempenho por dependência administrativa da escola
+- Desempenho entre escolas estaduais, municipais, federais e privadas
 - Desempenho por localização da escola
 - Ranking dos 50 municípios de aplicação com maiores médias em Matemática
 
@@ -223,29 +274,80 @@ Mais da metade das notas válidas concentrou-se entre **400 e 600 pontos**.
 
 Foram observadas diferenças relevantes entre categorias geográficas e escolares.
 
-De acordo com a dependência administrativa da escola, as médias de Matemática foram:
+### Desempenho por Estado de Aplicação
+
+O desempenho em Matemática apresentou variações consideráveis entre as unidades federativas onde a prova foi realizada.
+
+O ranking completo por média de Matemática foi:
+
+<details>
+<summary><strong>Ver ranking completo por estado de aplicação</strong></summary>
+
+| Posição | UF | Média |
+|---:|:---:|---:|
+| 1 | SP | 560,34 |
+| 2 | SC | 553,49 |
+| 3 | RS | 549,08 |
+| 4 | MG | 548,20 |
+| 5 | DF | 547,98 |
+| 6 | ES | 545,10 |
+| 7 | PR | 544,66 |
+| 8 | RJ | 537,61 |
+| 9 | GO | 521,76 |
+| 10 | RN | 515,61 |
+| 11 | MS | 513,39 |
+| 12 | CE | 511,24 |
+| 13 | PE | 510,46 |
+| 14 | MT | 508,83 |
+| 15 | PB | 505,39 |
+| 16 | SE | 494,82 |
+| 17 | AL | 492,59 |
+| 18 | RR | 492,32 |
+| 19 | PI | 491,42 |
+| 20 | RO | 488,15 |
+| 21 | BA | 486,94 |
+| 22 | TO | 486,87 |
+| 23 | AC | 479,14 |
+| 24 | MA | 470,13 |
+| 25 | PA | 467,07 |
+| 26 | AP | 466,41 |
+| 27 | AM | 464,61 |
+
+</details>
+
+A diferença entre a maior e a menor média de Matemática foi de aproximadamente **95,73 pontos**.
+
+É importante observar que `SG_UF_PROVA` representa o estado onde a prova foi realizada e não necessariamente corresponde ao estado de residência ou escolarização do participante.
+
+### Desempenho por Dependência Administrativa da Escola
+
+Entre os registros com informação disponível sobre a dependência administrativa da escola, as médias de Matemática foram:
 
 - **Estadual:** 480,63
 - **Municipal:** 532,26
 - **Federal:** 586,95
 - **Privada:** 620,32
 
-Em relação à localização da escola:
+Essas diferenças descrevem o desempenho observado dos participantes associados a cada categoria de escola e não devem ser interpretadas como evidência de que a dependência administrativa, isoladamente, determina o desempenho em Matemática.
+
+### Desempenho por Localização da Escola
+
+Entre os registros com informação disponível sobre a localização da escola, as médias de Matemática foram:
 
 - **Urbana:** 516,27
 - **Rural:** 465,96
 
-### Desempenho por Estado de Aplicação
+A diferença observada pode estar associada a diversos fatores educacionais, socioeconômicos e regionais e não deve ser interpretada como uma relação causal.
 
-O desempenho em Matemática apresentou variações consideráveis entre os estados brasileiros onde a prova foi realizada.
-
-As maiores médias foram observadas em **São Paulo (SP), Santa Catarina (SC), Rio Grande do Sul (RS), Minas Gerais (MG) e Distrito Federal (DF)**, enquanto médias menores foram observadas em diversos estados das regiões Norte e Nordeste.
-
-É importante observar que `SG_UF_PROVA` representa o estado onde a prova foi realizada e não necessariamente corresponde ao estado de residência ou escolarização do participante.
+### Desempenho por Município de Aplicação
 
 No nível municipal, **Veranópolis (RS)** apresentou a maior média de Matemática entre os municípios de aplicação analisados, seguida por **Lajeado (RS)** e **Valinhos (SP)**.
 
-Esses resultados são descritivos e não devem ser interpretados como evidência de relações causais.
+A análise classificou os **50 municípios de aplicação com as maiores médias em Matemática** entre os 1.768 municípios representados nos dados com notas válidas de Matemática.
+
+Assim como na análise por estado, o município corresponde ao local onde a prova foi realizada e não necessariamente representa o município de residência ou escolarização do participante.
+
+De modo geral, os resultados apresentados neste projeto são descritivos e não devem ser interpretados como evidência de relações causais.
 
 ## Conceitos de NumPy Aplicados
 
